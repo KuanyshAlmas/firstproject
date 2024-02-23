@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "login": "kuanysh",
+        "account": 19000,
+        "nationality": "Kazakh"
+    },
+    {
+        "id": 9479,
+        "login": "tyuyu",
+        "account": "134234",
+        "nationality": "uzbek"
+    },
+    {
+        "id": 70624,
+        "login": "tyuy",
+        "account": "134234",
+        "nationality": "uzbek"
+    }
+]

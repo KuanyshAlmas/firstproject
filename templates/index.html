@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <div>
+        <form action="{{ url_for('get_profiles') }}" method="post">
+            <button type="submit" name="button" value="button1">Кнопка 1</button>
+        </form>
+
+        <form action="{{ url_for('get_profile_by_id') }}" method="post">
+            <input type="number" name="id" placeholder="Введите ID профиля" required>
+            <button type="submit" name="button" value="button1">Кнопка 1</button>
+        </form>
+        
+        <form action="{{ url_for('create_profile') }}" method="post">
+            <button type="submit" name="button" value="button2">Кнопка 2</button>
+        </form>
+        
+        <form action="{{ url_for('update_profile_by_id') }}" method="post">
+            <button type="submit" name="button" value="button3">Кнопка 3</button>
+        </form>
+        <form action="{{ url_for('delete_profile_by_id') }}" method="post">
+            <button type="submit" name="button" value="button3">Кнопка 3</button>
+        </form>
+        
+    </div>
+</body>
+</html>
